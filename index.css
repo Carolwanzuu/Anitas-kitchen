@@ -10,44 +10,59 @@ img.one{
      justify-content: center;
 }
 .container{
-    display; flex;
-    clear: none;
-    margin:90px;
-    background-size: cover;
-    padding: 10px 2px 10px 2px;
-    justify-content: space-evenly;
+    display: flex;
+    height: 30vh;
+}
+#direction{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
 }
 table{
     width: 400px;
 }
-.container #up{
+#up{
     font-size: 20px;
     border-bottom: 1px solid black;
-    height: 90px;
+    height: 15vh;
 }
-.container #down{
+#down{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 15vh;
     font-size: 20px;
     background-color: #F15A29;
-
+ 
 }
-.container #two{
+#two{
     background-image: url("images/breakfast.jpg");
     background-size: cover;
-    height: 200px;
-    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 25%;
     font-size: 20px;
     text-align: center;
 }
-.container #three{
+#three{
     background-image: url("images/lunch.jpg");
     background-size: cover;
-    width: 200px;
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    width: 25%;
+    font-size: 20px;
     text-align: center;
 }
-.container #four{
+#four{
     background-image: url("images/dinner.jpg");
-    width: 200px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 30vh;
     font-size: 20px;
 }
 #navigation nav ul li a{
