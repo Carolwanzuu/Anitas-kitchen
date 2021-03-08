@@ -1,8 +1,38 @@
-#title {
-    background-image: url("./images/landing.jpg");
+h2#title{
+    background-image: url('images/landing.jpg');
 }
-div.time {
-    display: block;
-    padding: 15px;
+ul li {
     list-style: none;
+}
+#two{
+    background-image: url('images/drink2.jpg');
+}
+#navigation nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    line-height: 100px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+.container ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    float: left;
+    margin: 10px;
+    padding: 2px;
+    justify-content: auto;
+}
+.container #one{
+    display: flex;
+    flex-direction: column;
+}
+form>input{
+    color: #f15A29
 }
