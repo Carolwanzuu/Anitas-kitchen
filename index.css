@@ -1,3 +1,17 @@
+#title{
+    background-image: url("images/landing.jpg");
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    text-align:center;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+
+}
+
 
 *body{
     border: 50px;
@@ -11,20 +25,17 @@ img.one{
 }
 .container{
     display: flex;
-    height: 30vh;
+    height: 20vh;
 }
 #direction{
     display: flex;
     flex-direction: column;
     width: 25%;
 }
-table{
-    width: 400px;
-}
 #up{
     font-size: 20px;
     border-bottom: 1px solid black;
-    height: 15vh;
+    height: 10vh;
     align-items: center;
     font-style: italic;
 }
@@ -34,7 +45,7 @@ table{
     align-items: center;
     color: white;
     font-style: italic;
-    height: 15vh;
+    height: 10vh;
     font-size: 20px;
     background-color: #F15A29;
  
@@ -47,7 +58,7 @@ table{
     align-items: center;
     color: white;
     font-style: italic;
-    height: 30vh;
+    height: 20vh;
     width: 25%;
     font-size: 20px;
     text-align: center;
@@ -59,7 +70,7 @@ table{
     justify-content: center;
     font-style: italic;
     color: white;
-    height: 30vh;
+    height: 20vh;
     width: 25%;
     font-size: 20px;
     align-items: center;
@@ -70,7 +81,7 @@ table{
     justify-content: center;
     align-items: center;
     width: 25%;
-    height: 30vh;
+    height: 20vh;
     font-size: 20px;
     font-style: italic;
     color: white;
@@ -104,11 +115,10 @@ table{
 form>input{
     color: #F15A29;
 }
-.paragraph1 #fastfood{
+.paragraph1{
     display: flex;
-    border: 1px grey;
-    padding: 5px;
     float: left;
+    border: 1px grey;
 }
 
 nav ul{
