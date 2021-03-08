@@ -2,12 +2,12 @@
 *body{
     border: 50px;
     padding: 100px;
-    margin: 100px;
+    max-width: 960px;
+    margin-left: 960px;
+    margin-right: 500px;
 }
-h2 #title {
-    background-image: url("images/landing.jpg");
-    padding: 200px;
-    text-align: center;
+img.one{
+     justify-content: center;
 }
 .container{
     display; flex;
@@ -16,6 +16,9 @@ h2 #title {
     background-size: cover;
     padding: 10px 2px 10px 2px;
     justify-content: space-evenly;
+}
+table{
+    width: 400px;
 }
 .container #up{
     font-size: 20px;
@@ -90,7 +93,7 @@ nav ul{
 nav li{
     float: left;
 }
-nav li a{
+nav ul li a{
     display: inline-block;
     color: black;
     text-align: center;
@@ -112,4 +115,18 @@ div.menu{
     height: 150px;
     text-align: center;
     color: white;
+}
+div.img{
+    float:left;
+    clear: both;
+}
+div.img2{
+    float: right;
+    clear: both;
+}
+#navigation{
+    background-image: url("images/foodsBg.jpg");
+    text-align: center;
+}.paragraph4 img{
+    justify-content: center;
 }
