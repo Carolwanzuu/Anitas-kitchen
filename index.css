@@ -25,11 +25,15 @@ table{
     font-size: 20px;
     border-bottom: 1px solid black;
     height: 15vh;
+    align-items: center;
+    font-style: italic;
 }
 #down{
     display: flex;
+    justify-content: center;
     align-items: center;
     color: white;
+    font-style: italic;
     height: 15vh;
     font-size: 20px;
     background-color: #F15A29;
@@ -41,6 +45,8 @@ table{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-style: italic;
     height: 30vh;
     width: 25%;
     font-size: 20px;
@@ -51,10 +57,12 @@ table{
     background-size: cover;
     display: flex;
     justify-content: center;
+    font-style: italic;
+    color: white;
     height: 30vh;
     width: 25%;
     font-size: 20px;
-    text-align: center;
+    align-items: center;
 }
 #four{
     background-image: url("images/dinner.jpg");
@@ -64,6 +72,8 @@ table{
     width: 25%;
     height: 30vh;
     font-size: 20px;
+    font-style: italic;
+    color: white;
 }
 #navigation nav ul li a{
     list-style: none;
@@ -94,7 +104,7 @@ table{
 form>input{
     color: #F15A29;
 }
-.paragraph1 img{
+.paragraph1 #fastfood{
     display: flex;
     border: 1px grey;
     padding: 5px;
