@@ -18,4 +18,4 @@ view [live](https://carolwanzuu.github.io/Anitas-kitchen/)
 ### License
 This project is under the [MIT] (LICENSE) license
 ## Copyright
-Copyright[2021][CarolWanzuu]
+Copyright (c){2021} **{CarolWanzuu}
